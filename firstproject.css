@@ -1,9 +1,18 @@
 html{
+
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
+body{
+    background-color: black;
+}
+
  header  h1{
+    color:aliceblue;
     font-weight: 400;
+ }
+ h1:hover{
+    color:gold;
  }
 header{
     display: flex;
@@ -24,6 +33,7 @@ nav{
 li{
     list-style: none;
     font-size: 1.5rem;
+    margin: 4px 10px 4px 10px;
 }
 .image{
     width: 95vw;
@@ -43,13 +53,26 @@ article{
 footer {
     display: flex;
     justify-content: center;
-    background-color: black;
+    background-color: #4d0000;
     margin:10px 0px 10px 0px;
     
   
     
 }
+p{
+    font-size: 15px;
+    color:white;
+}
 footer p{
     font-size: 15px;
     color:white;
+}
+a{
+    text-decoration: none;
+    color:antiquewhite;
+}
+a:hover{
+    color:gold;
+    
+    font-size: 30px;
 }
